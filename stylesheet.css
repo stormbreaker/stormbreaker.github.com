@@ -4,7 +4,7 @@ body {
   text-align: left;
   font-family: 'Open Sans';
    
-  background-color: void.jpg; 
+  background-color: url ('void.jpg'); 
 }
 
 .navbar {
