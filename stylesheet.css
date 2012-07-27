@@ -1,10 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans|Cousine);
 
+html { 
+	background: url(void.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 body {
   text-align: left;
   font-family: 'Open Sans';
-   
-  background: url('void.jpg'); 
 }
 
 .navbar {
