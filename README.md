@@ -1,3 +1,3 @@
 #stormbreaker.github.com
 
-This is the official site for the Void team!
+This site will be under construction until further notice
