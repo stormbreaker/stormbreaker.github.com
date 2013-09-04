@@ -25,11 +25,11 @@
 			
 		    color: #47A3CF;
 		  }
-		  #posttitle
+		  .posttitle
 		  {
 			text-decoration: underline;
 		  }
-		  #posttext
+		  .posttext
 		  {
 		    color: yellow;
 		  }
@@ -42,14 +42,14 @@
 		  <fieldset>
 	      8-30-13
 		  
-			<h1 id = "posttitle">Short Dissertation on the Quirks of Pre-Calc</h1>
-			<p id = "posttext">"Math is confusing!"  I hear it all the time from multiple people.  I finally see where they are coming from.
+			<h1 class = "posttitle">Short Dissertation on the Quirks of Pre-Calc</h1>
+			<p class = "posttext">"Math is confusing!"  I hear it all the time from multiple people.  I finally see where they are coming from.
 			</p>
-			<p id = "posttext">
+			<p class = "posttext">
 			Last night while doing pre-calc review problems for my calculus class, I stumbled upon this equation: f(t) = (4 - t^2)/(2 - t).  A rational
 			function but despite its ungainly appearance, it's not really too hard.  Right?  Well, yes.  Sometimes.
 			</p>
-			<p id = "posttext">
+			<p class = "posttext">
 			I believe everyone would agree with me that this problem can be simplified and that this is done in the following manner:
 			</p>
 			<p>
@@ -61,16 +61,16 @@
 			<p>
 			f(t) = (2 + t)
 			</p>
-			<p id = "posttext">
+			<p class = "posttext">
 			Makes sense right? (4 - t^2)/(2 - t) = (2 + t).  Looks good, but is it really?  Let's do some domain and range to find out.
 			</p>
-			<p id = "posttext">
+			<p class = "posttext">
 			Let's consider f(t) = (2 + t):
 			</p>
 			<p>
 			Linear function.  No specified domain limits, thus it has none.  Domain is: (-∞, ∞).
 			</p>
-			<p id = "posttext">
+			<p class = "posttext">
 			That was simple.  So if (4 - t^2)/(2 - t) = (2 + t) then shouldn't the domain of f(t) = (4 - t^2)/(2 - t) also be (-∞, ∞)?  One would think so.
 			However, a closer examination proves otherwise:
 			</p>
@@ -78,21 +78,21 @@
 			Rational function.  No specified domain limit, however because of the rational nature, there must be. Calculated:
 			</p>
 			<p>
-			(2 - t) > 0 or (2 - t) < 0 so that denominator is != 0.
+			(2 - t) > 0 or (2 - t) &lt; 0 so that denominator is != 0.
 			</p>
 			<p>
-			2 - t > 0 or 2 - t < 0
+			2 - t > 0 or 2 - t &lt; 0
 			</p>
 			<p>
-			2 > t or 2 < t
+			2 > t or 2 &lt; t
 			</p>
 			<p>
-			t < 2 or t > 2
+			t &lt; 2 or t > 2
 			</p>
 			<p>
 			Domain is then: (-∞, 2) U (2, ∞)
 			</p>
-			<p id = "posttext">
+			<p class = "posttext">
 			If you were to graph both of these mathematically equal equations, you would get the same line albeit the second equation we found the domain for would have
 			a hole at 2.  This is NOT the same as a line that continues on forever.  The equations are the same yet not the same.  Strange but true.  
 			</p>			
@@ -102,21 +102,25 @@
 		  <fieldset>
 	      8-28-13
 		  
-			<h1 id = "posttitle">First Blog!</h1>
-			<p id = "posttext">This first post is more of an overview than anything.  You will also find this information in the "About" page.
+			<h1 class = "posttitle">First Blog!</h1>
+			<p class = "posttext">This first post is more of an overview than anything.  You will also find this information in the "About" page.
 			</p>
-			<p id = "posttext">
+			<p class = "posttext">
 			Welcome to stormbreaker's blog!  Even though this is not intended to be a regular blog, you will be sure to find information about my projects every chance that I have to work on them.
 			I may also post links to and discussions about advances in the technological/programming world as well as the occasional rant about issues not related to technology, but rather to
 			society.  In addition, I occasionally have incredible technological ideas, many of which I will post here.
 			I may post them here.  
 			</p>
-			<p id = "posttext">
+			<p class = "posttext">
 			I am aware that the site and the blog posts in particular are a bit "plain" right now.  I created this in about a week and a half and with little to no experience in either
 			HTML or CSS.  My personal thoughts are that this is good first attempt  I expect to revise, adapt, expand, and otherwise
 			improve the site bit by tiny bit (with the occasional byte) over the next few months. Please bear with me and enjoy!
 			</p>
 		  </fieldset>
 		</form>
+		<p>
+          <a href="http://validator.w3.org/check?uri=referer"><img
+		  src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+		</p>
 	</body>
 </html>
